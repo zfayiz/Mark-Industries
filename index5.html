@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>MERCURY - About Us</title>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>
+		<noscript>
+			
+			<link rel="stylesheet" href="css/style.css" />
+			
+		</noscript>
+	
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  
+	</head>
+	
+ 
+<!-- 	<body class= "landing" onload="enableAutoplay()">
+		<audio loop id="myAudio" width="320" height="176" controls="controls">
+  <source src="entrancesounds.mp3" type="audio/mp3">
+ 
+</audio> -->
+<body>
+
+  <section>
+		<!-- Header -->
+			<header id="header2">
+
+<!-- <div id="parent" style="margin:auto; text-align:center;"> -->
+
+
+<!-- <div id="popup3" align="center" style="display: none" >Go to NYU Home</div>
+</div> --> 	<!-- 
+<h1><a href="#index.html">Welcome to the Entrance!</a></h1> -->
+
+				<nav style="top: -8px; z-index:100000;">
+					<ul class="actions">
+          <img src="MERCURY LOGO NEW.png" style="width: 15%; height: 70%; display: block; margin-top: 25px; margin-left: auto; margin-right: auto;" align="left"></img>
+
+          </nav>
+          <nav id="nav" style=" margin-top: -8px; right: 10px; z-index:100000;">
+            <ul class="actions">
+            
+					<li><a href="index2.html">Home</a></li>
+						<li><a href="index3.html">Products</a></li>
+						<li><a href="index5.html">About Us</a></li>
+						<li><a href="index4.html">Contact Us</a></li>
+				</nav>
+
+          
+			</header>
+			 </div>
+</div>
+	</li>
+				</ul>
+      </section>
+
+
+
+<!-- One -->
+      <section id="one" class="wrapper style5 align-center">
+        <div class="container" id="test">
+          <header>
+            <br>
+            <br>
+            <h2>About Us</h2>
+            <br>
+            <!-- <p>View our extensive list of products by scrolling down below!</p> -->
+            <br></br>
+            <div class="bounce"><a href="#company"><i class="fa fa-angle-double-down" aria-hidden="true" style="font-size:50px;"></i></a></div>
+          </header>
+        </section>
+
+    <!-- Two -->
+      <section id="two" class="wrapper style2 align-center"  style="background:url(images/back.jpg);">
+
+        <div class="container" style="padding:1px;">
+
+ 
+<a class="button" name="Show1" href="javascript:void(0)" style="text-decoration:none;"><h2 id="company"><b>OUR HISTORY &#9662;</b></h2></a>
+          <div>
+      <div id="Show1" style="display:none"> <p>
+Mark Industries started its operations in 1996, with the production of quality writing tools in collaboration with a well-recognized German manufacturing company. After many years of research we started producing lead pencils in 2009. Now we specialize in wooden pencils specially black lead, colour lead pencils.</p></div></div>
+
+<br></br>
+
+
+ <a class="button" name="Show2" href="javascript:void(0)" style="text-decoration:none;"><h2 id="company"><b>OUR MISSION &#9662;</b></h2></a>
+          <div>
+      <div id="Show2" style="display:none"> <p>
+Our mission is to make a positive difference in the writing instruments (Stationery) field, primarily through the highest standards of quality at affordable price range for its customers/consumers. We always keep an eye on the available latest research & surveys in the world through our R&D department. Honesty, Dignity, Hard work and Quality are our key values through which we ensure the satisfaction of our customers’ needs, and will continue working towards its vision of becoming a premier Pakistani company with a global reach.</p></div></div>
+
+<br></br>
+
+<a class="button" name="Show3" href="javascript:void(0)" style="text-decoration:none;"><h2 id="company"><b>QUALITY STANDARDS &#9662;</b></h2></a>
+          <div>
+      <div id="Show3" style="display:none"> <p>
+For good quality results we have the best molding and German assembling machines. All other machines are also sourced from different parts of Europe.</p></div></div>
+
+<br></br>
+
+
+          <!-- <footer>
+            <ul class="actions">
+              <li>
+                <a href="#" class="button alt big">View Full Catalogue</a>
+              </li>
+            </ul>
+          </footer> -->
+        </div></div>
+      </section>
+
+          <script>
+
+$(document).ready(function(){
+  $('a[href^="#"]').on('click',function (e) {
+      e.preventDefault();
+
+      var target = this.hash;
+      var $target = $(target);
+
+      $('html, body').stop().animate({
+          'scrollTop': $target.offset().top
+      }, 900, 'swing', function () {
+          window.location.hash = target;
+      });
+  });
+});
+
+   $(document).ready(function(){
+        $(".button").click(function () {
+           var div= $("#"+this.name);
+      div.toggle("slow").siblings().hide("slow");
+    });
+    });  
+
+</script>
+
+ 
+   <!-- <section id="one" class="wrapper style3 align-center">
+        <div class="container">
+          <header>
+            <h2>Welcome to Mercury</h2>
+            <br>
+            <p>Mark Industries started its operations in 1996, with the production of quality writing tools in collaboration with a well-recognized German manufacturing company. For good quality results we have the best molding and German assembling machines. After many years of research we started producing lead pencils in 2009. Now we specialize in wooden pencils specially black lead, colour lead pencils.</p>
+          </header>
+          <div class="row 100%">
+            <a href="#" style="color: white;"> <section class="4u 12u$(small)">
+              <i class="icon big rounded fa-book"></i>
+              <p>Catalogue</p></a>
+            </section>
+            <a href="#" style="color: white;"><section class="4u 12u$(small)">
+              <i class="icon big rounded fa-newspaper-o"></i>
+              <p>News & Events</p></a>
+            </section>
+            <a href="#" style="color: white;"><section class="4u$ 12u$(small)">
+              <i class="icon big rounded fa-user"></i>
+              <p>Become an Affiliate</p></a>
+            </section>
+          </div>
+        </div>
+      </section>
+ -->
+    <!-- Footer -->
+      <footer id="footer">
+        <div class="container">
+          <!-- <div class="row"> -->
+            <!-- <section class="4u 6u(medium) 12u$(small)">
+              <h3>Lorem ipsum</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, cumque!</p>
+              <ul class="alt">
+                <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li><a href="#">Quod adipisci perferendis et itaque.</a></li>
+                <li><a href="#">Itaque eveniet ullam, veritatis reiciendis?</a></li>
+                <li><a href="#">Accusantium repellat accusamus a, soluta.</a></li>
+              </ul>
+            </section> -->
+            <!-- <section class="4u 6u$(medium) 12u$(small)">
+              <h3>Nostrum, repellat!</h3>
+              <p>Tenetur voluptate exercitationem eius tempora! Obcaecati suscipit, soluta earum blanditiis.</p>
+              <ul class="alt">
+                <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                <li><a href="#">Id inventore, qui necessitatibus sunt.</a></li>
+                <li><a href="#">Deleniti eum odit nostrum eveniet.</a></li>
+                <li><a href="#">Illum consectetur quibusdam eos corporis.</a></li>
+              </ul>
+            </section> -->
+            <!-- <section class="4u$ 12u$(small) 12u$(small)">
+              <h4>Contact Us</h4>
+              <ul class="icons">
+                <li><a href="#" class="icon rounded fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="#" class="icon rounded fa-facebook"><span class="label">Facebook</span></a></li>
+                <li><a href="#" class="icon rounded fa-pinterest"><span class="label">Pinterest</span></a></li>
+                <li><a href="#" class="icon rounded fa-google-plus"><span class="label">Google+</span></a></li>
+                <li><a href="#" class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a></li>
+              </ul> -->
+              <!-- <ul class="tabular">
+                <li> -->
+                  <!-- <h4>Address</h4>
+                  1234 Somewhere Road<br>
+                  Nashville, TN 00000 -->
+                <!-- </li>
+                <li> -->
+                  <!-- <h4>Mail</h4>
+                  <a href="#">someone@untitled.tld</a> -->
+                <!-- </li>
+                <li> -->
+                  <!-- <h4>Phone</h4>
+                  (000) 000-0000 -->
+                <!-- </li>
+              </ul> -->
+            <!-- </section> -->
+          </div>
+          <ul class="copyright">
+            <li>&copy; MARK INDUSTRIES PAKISTAN. Copyright 2016-17. All rights reserved.</li>
+            <br></br>
+            <ul class="icons" align="center">
+                <li><a href="#" class="icon rounded fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="#" class="icon rounded fa-facebook"><span class="label">Facebook</span></a></li>
+                <li><a href="#" class="icon rounded fa-google-plus"><span class="label">Google+</span></a></li>
+                <li><a href="#" class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a></li>
+              </ul>
+          <!--  <li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+            <li>Images: <a href="http://unsplash.com">Unsplash</a></li>
+          </ul>
+        </div> -->
+      </footer>
+		<!-- Main -->
+		
+
+<!-- 			<section id="main"> -->
+				<!-- <div class="container"> -->
+					<!-- <div id="banner3">
+ -->
+					<!-- <header class="major">
+						<h2>Entrance</h2>
+						<p style="color:white;">This is the back entrance of the NYU Shanghai Academic Building. This is where the shuttle buses drop off and pick up students, when they need to go to and from the dorms.</p> -->
+						
+						<!-- <div class="moving-zone">
+     <div class="popup2">
+        <div class="popup2-content">
+            <div class="popup2-text">
+               <a href="#source_video" style="color:white; text-decoration:none;"> Scroll down to see more!</a><br/>
+            </div>
+        </div>
+    </div>
+</div> -->
+					
+				<!-- </div>
+				<div id="parent1">
+				<a href="index4.html"> <img src="cafe-icon.png" style="width: 100px; height: 100px; padding: 10px; margin-top: 100px; left: 10px; position: absolute;" align="left"></img></a>
+					<div id="popup4" align="left" style="display: none; color:white; margin-top: 200px; position:absolute; left: 21px; width: 100px; padding: 10px;">2F Café</div>
+</div> 	
+<div id="parent2">
+				<a href="index3.html"> <img src="lounge-icon.png" style="width: 100px; height: 100px; padding: 10px; margin-top: 250px; left: 10px; position: absolute;" align="left"></img></a>
+					<div id="popup5" align="left" style="display: none; color:white; margin-top: 340px; position:absolute; left: 23px; width: 100px; padding: 10px;">Lounge</div>
+</div> 	
+
+<div id="parent3">
+				<a href="index5.html"> <img src="library-icon.png" style="width: 100px; height: 100px; padding: 10px; margin-top: 250px; position: absolute; right: 10px;" align="right"></img></a>
+					<div id="popup6" align="right" style="display: none; color:white; position:absolute; right: 25px; width: 100px; padding: 10px; margin-top: 340px;">Library</div>
+</div> 	
+
+<div id="parent4">
+				<a href="index2.html"> <img src="entrance-icon.png" style="width: 100px; height: 100px; padding: 10px; margin-top: 100px; position: absolute; right: 10px;"  align="right"></img></a>
+					<div id="popup7" align="right" style="display: none; color:white; position:absolute; right: 18px; width: 100px; padding: 10px; margin-top: 190px;">Entrance</div>
+</div> 	
+					<div class="valiantPhoto" id="source_video" data-photo-src="entrance.jpg"></div>
+					<div class="moving-zone1"><div class="popup2">
+        <div class="popup2-content">
+            <div class="popup2-text">
+               <a href="#Video" onclick= "$('#Video').css('display', 'block');document.getElementById('myAudio').pause();" style="color:white; text-decoration:none;"> Go to Live 360 Video!</a><br/>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="popup"> Click on the image and move your mouse to rotate, and get a 360 degree view! You can also zoom in and out using your mouse scroll.
+    <div class="close ns-close"></div></div>
+
+    <div id="Video" style="display: none; position: absolute;"> <iframe width="1280" height="720" src="https://www.youtube.com/embed/By4RHxQS0ng" frameborder="0" allowfullscreen></iframe> </div>
+ -->
+				
+
+	</body>
+</html>
